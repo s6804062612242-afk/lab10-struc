@@ -15,7 +15,10 @@ DisplayData(&ComputerBook);
 return 0; 
 } 
 void DisplayData(struct Books *CBook){ 
-printf("Book ID : %d \n",CBook->BookID); 
+printf("Book ID : %d \n",(*CBook).BookID); 
 printf("Book Title : %s \n",CBook->BookTitle); 
 } 
 
+//(*CBook).BookID คือ เป็นการสั่งให้ไปที่ตำแหน่งที่ Pointer ชี้อยู่ (*CBook) แล้วค่อยเจาะจงไปที่ตัวแปร BookID
+
+//CBook->BookTitle คือ เป็นเครื่องหมาย "Arrow Operator"ทำงานคล้ายอันเเรกเเค่เขียนได้สองเเบบ
