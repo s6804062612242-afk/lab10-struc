@@ -19,3 +19,5 @@ printf("Book ID : %d \n",CBook.BookID);
 printf("Book Title : %s \n",CBook.BookTitle); 
 } 
 
+//void DisplayData(struct Books CBook) คือ ฟังก์ชันเเสดงผลที่เราสร้างรับ ค่าของโครงสร้าง (Struct) เข้ามาเพื่อแสดงผล
+//พารามิเตอร์ที่รับเข้ามา รับobjectเข้ามาในฟังก์ชัน รับแบบ "Pass by Value"
